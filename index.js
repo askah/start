@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
     if (period === 1) {
       greetings.innerHTML = 'Good morning. It\'s ' + day + '.'
-      document.querySelector(':root').style.setProperty('--background', '#ff596c')
+      document.querySelector(':root').style.setProperty('--background', '#202020')
       document.querySelector(':root').style.setProperty('--input', '#755')
       document.querySelector(':root').style.setProperty('--color', '#EDD')
       document.querySelector(':root').style.setProperty('--link', '#755')
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     }
     if (period === 2) {
       greetings.innerHTML = 'Good afternoon. It\'s ' + day + '.'
-      document.querySelector(':root').style.setProperty('--background', '#ff596c')
+      document.querySelector(':root').style.setProperty('--background', '#202020')
       document.querySelector(':root').style.setProperty('--input', '#755')
       document.querySelector(':root').style.setProperty('--color', '#EDD')
       document.querySelector(':root').style.setProperty('--link', '#755')
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     }
     if (period === 3) {
       greetings.innerHTML = 'Good evening. It\'s still ' + day + '.'
-      document.querySelector(':root').style.setProperty('--background', '#ff596c')
+      document.querySelector(':root').style.setProperty('--background', '#202020')
       document.querySelector(':root').style.setProperty('--input', '#755')
       document.querySelector(':root').style.setProperty('--color', '#EDD')
       document.querySelector(':root').style.setProperty('--link', '#755')
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     }
     if (period === 0) {
       greetings.innerHTML = 'It\'s ' + day + ' already. Go get some sleep!'
-      document.querySelector(':root').style.setProperty('--background', '#ff596c')
+      document.querySelector(':root').style.setProperty('--background', '#202020')
       document.querySelector(':root').style.setProperty('--input', '#755')
       document.querySelector(':root').style.setProperty('--color', '#EDD')
       document.querySelector(':root').style.setProperty('--link', '#755')
