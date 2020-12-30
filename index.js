@@ -50,26 +50,29 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
     if (period === 1) {
       greetings.innerHTML = 'Good morning. It\'s ' + day + '.'
-      document.querySelector(':root').style.setProperty('--background', '#DCEDFF')
-      document.querySelector(':root').style.setProperty('--input', '#fff')
-      document.querySelector(':root').style.setProperty('--link', '#4A5E6D')
-      document.querySelector(':root').style.setProperty('--shadow', '#232C33')
-      document.querySelector(':root').style.setProperty('--color', '#232C33')
+      document.querySelector(':root').style.setProperty('--background', '#0C0606')
+      document.querySelector(':root').style.setProperty('--input', '#755')
+      document.querySelector(':root').style.setProperty('--color', '#EDD')
+      document.querySelector(':root').style.setProperty('--link', '#755')
+      document.querySelector(':root').style.setProperty('--hover', '#EDD')
+      document.querySelector(':root').style.setProperty('--shadow', '#000')
     }
     if (period === 2) {
       greetings.innerHTML = 'Good afternoon. It\'s ' + day + '.'
-      document.querySelector(':root').style.setProperty('--background', '#97C3B6')
-      document.querySelector(':root').style.setProperty('--input', '#F9E7E7')
-      document.querySelector(':root').style.setProperty('--color', '#0A2E36')
-      document.querySelector(':root').style.setProperty('--shadow', '#0A2E36')
+      document.querySelector(':root').style.setProperty('--background', '#0C0606')
+      document.querySelector(':root').style.setProperty('--input', '#755')
+      document.querySelector(':root').style.setProperty('--color', '#EDD')
+      document.querySelector(':root').style.setProperty('--link', '#755')
+      document.querySelector(':root').style.setProperty('--hover', '#EDD')
+      document.querySelector(':root').style.setProperty('--shadow', '#000')
     }
     if (period === 3) {
       greetings.innerHTML = 'Good evening. It\'s still ' + day + '.'
-      document.querySelector(':root').style.setProperty('--background', '#161212')
-      document.querySelector(':root').style.setProperty('--input', '#7B6565')
-      document.querySelector(':root').style.setProperty('--color', '#F9E7E7')
-      document.querySelector(':root').style.setProperty('--link', '#7B6565')
-      document.querySelector(':root').style.setProperty('--hover', '#F9E7E7')
+      document.querySelector(':root').style.setProperty('--background', '#0C0606')
+      document.querySelector(':root').style.setProperty('--input', '#755')
+      document.querySelector(':root').style.setProperty('--color', '#EDD')
+      document.querySelector(':root').style.setProperty('--link', '#755')
+      document.querySelector(':root').style.setProperty('--hover', '#EDD')
       document.querySelector(':root').style.setProperty('--shadow', '#000')
     }
     if (period === 0) {
